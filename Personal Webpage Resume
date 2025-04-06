@@ -1,0 +1,75 @@
+import React from "react";
+
+export default function ResumeWebpage() {
+  return (
+    <main className="max-w-4xl mx-auto p-6 font-sans text-gray-800">
+      <header className="mb-10">
+        <h1 className="text-4xl font-bold text-blue-700">Hima Bindu Adimulam</h1>
+        <p className="text-lg text-gray-600">Assistant Professor | Researcher in Cybersecurity & IoT</p>
+      </header>
+
+      <section className="mb-10">
+        <h2 className="text-2xl font-semibold mb-2">Introduction</h2>
+        <p>
+          Assistant Professor in the Department of CSE at VRSEC, with research interests in Cybersecurity,
+          Blockchain, IoT, and Network Security. Enthusiastic about sponsored projects and collaborative
+          research work.
+        </p>
+      </section>
+
+      <section className="mb-10">
+        <h2 className="text-2xl font-semibold mb-2">Work Experience</h2>
+        <ul className="list-disc list-inside">
+          <li>Assistant Professor, Dept. of CSE, VRSEC – 2009–Present</li>
+        </ul>
+      </section>
+
+      <section className="mb-10">
+        <h2 className="text-2xl font-semibold mb-2">Skills</h2>
+        <p>Programming: Python, Java, C<br />
+           Technologies: IoT, Blockchain, Network Security<br />
+           Tools: NS2, Packet Tracer, Wireshark, MATLAB</p>
+      </section>
+
+      <section className="mb-10">
+        <h2 className="text-2xl font-semibold mb-2">Education</h2>
+        <ul className="list-disc list-inside">
+          <li>Ph.D. in CSE (Pursuing), KL University</li>
+          <li>M.Tech in CSE, JNTUK</li>
+          <li>B.Tech in CSE, JNTUK</li>
+        </ul>
+      </section>
+
+      <section className="mb-10">
+        <h2 className="text-2xl font-semibold mb-2">Sponsored Projects</h2>
+        <ul className="list-disc list-inside">
+          <li>"Smart Attendance System using Facial Recognition" funded by AICTE, 2021</li>
+          <li>"Cybersecurity Awareness Platform" under UBA Scheme, 2022</li>
+        </ul>
+      </section>
+
+      <section className="mb-10">
+        <h2 className="text-2xl font-semibold mb-2">Research & Publications</h2>
+        <ul className="list-disc list-inside">
+          <li>Adimulam Hima Bindu et al., "Blockchain Framework for Secure IoT", IEEE, 2022</li>
+          <li>Hima Bindu A., "Machine Learning in Network Intrusion Detection", Springer, 2021</li>
+        </ul>
+      </section>
+
+      <section className="mb-10">
+        <h2 className="text-2xl font-semibold mb-2">Conferences Attended</h2>
+        <ul className="list-disc list-inside">
+          <li>IEEE International Conference on Emerging Trends in Engineering, 2023</li>
+          <li>National Seminar on Cybersecurity, IIT Hyderabad, 2022</li>
+        </ul>
+      </section>
+
+      <section className="mb-10">
+        <h2 className="text-2xl font-semibold mb-2">Contact</h2>
+        <p>Email: himabindu@vrsec.ac.in<br />
+           Phone: +91-XXXXXXXXXX<br />
+           LinkedIn: linkedin.com/in/himabindu</p>
+      </section>
+    </main>
+  );
+}
